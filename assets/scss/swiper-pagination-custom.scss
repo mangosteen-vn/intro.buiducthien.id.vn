@@ -1,0 +1,16 @@
+.swiper-parallax--style-1{
+  .swiper-pagination-bullet {
+    width: 4px;
+    height: 4px;
+    margin: 0 0 0 6px;
+    background: var(--bs-white);
+    opacity: 1;
+
+
+    &.swiper-pagination-bullet-active {
+      background: var(--bs-white);
+      width: 6px;
+      height: 6px;
+    }
+  }
+}
