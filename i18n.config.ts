@@ -1,8 +1,14 @@
 export default defineI18nConfig(() => ({
     legacy: false,
-    locale: 'en',
+    locale: 'vi',
     messages: {
-        en: {
+        vi: {
+            home_slide: {
+                slide1: {
+                    cta_title: "Thương hiệu nổi bật",
+                    cta_action: "Xem thêm"
+                }
+            },
             welcome: 'Welcome'
         },
         fr: {
